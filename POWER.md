@@ -41,4 +41,9 @@ sbt Dependency List:
 ./sbt dependencyTree
 ```
 
-When using the javadocs MCP server, specify the version of the dependency based on the resolved version. Looking up the latest version via the javadocs MCP server should only be done if the version isn't known in the resolved dependencies.
+# Best Practices
+
+## When using the javadocs MCP server use project dependencies
+
+When using the javadocs MCP server, specify the version of the dependency based on the resolved version.
+Looking up the latest version via the javadocs MCP server should only be done if the version isn't known in the resolved dependencies.
